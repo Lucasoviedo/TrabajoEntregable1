@@ -10,6 +10,4 @@
   Docente:
     - Maximiliano Andres Eschoyez
 
-### Place 1
-
 Informe en PDF [acá](https://github.com/Lucasoviedo/TrabajoEntregable1/blob/master/T%C3%A9cnicas%20de%20Compilaci%C3%B3n%20.pdf)
