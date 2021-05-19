@@ -1,8 +1,7 @@
 # TrabajoEntregable1
 
  Integrantes:
-    - Oviedo Lucsa
-    - Varella Gaspar
+    - Oviedo Lucas y Varella Gaspar
     
     
   Asignatura:
