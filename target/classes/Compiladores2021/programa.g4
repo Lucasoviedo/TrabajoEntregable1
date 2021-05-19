@@ -4,6 +4,10 @@ grammar programa;
 package Compiladores2021;
 }
 
+//   ////////                 GITHUB DEL EQUIPO                    ////////
+//   ////////  https://github.com/Lucasoviedo/TrabajoEntregable1   ////////
+//   ////////            Oviedo Lucas y Varella Gaspar             ////////
+
 fragment LETRA : [A-Za-z];
 fragment DIGITO : [0-9];
 
