@@ -66,6 +66,18 @@ public class programaBaseListener implements programaListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
+	@Override public void enterRetorno(programaParser.RetornoContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitRetorno(programaParser.RetornoContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
 	@Override public void enterDeclaracion(programaParser.DeclaracionContext ctx) { }
 	/**
 	 * {@inheritDoc}

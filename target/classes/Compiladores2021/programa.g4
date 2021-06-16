@@ -42,6 +42,8 @@ CHAR    : 'char' ;  //Caracter
 DOUBLE  : 'double' ;  //Double
 VOID    : 'void' ;  //Vacio
 
+RETURN  : 'return'; //Retorno
+
 ENTERO : DIGITO+;
 DECIMAL : ENTERO'.'ENTERO;
 CARACTER: '\''LETRA'\'';
@@ -78,6 +80,8 @@ instruccion : declaracion PYC
             | llamada_funcion PYC
             | bloque
             ;
+
+retorno : RETURN opal;
 
 declaracion : tipodato ID
             | tipodato ID asign

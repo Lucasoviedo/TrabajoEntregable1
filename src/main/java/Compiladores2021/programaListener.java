@@ -50,6 +50,16 @@ public interface programaListener extends ParseTreeListener {
 	 */
 	void exitInstruccion(programaParser.InstruccionContext ctx);
 	/**
+	 * Enter a parse tree produced by {@link programaParser#retorno}.
+	 * @param ctx the parse tree
+	 */
+	void enterRetorno(programaParser.RetornoContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link programaParser#retorno}.
+	 * @param ctx the parse tree
+	 */
+	void exitRetorno(programaParser.RetornoContext ctx);
+	/**
 	 * Enter a parse tree produced by {@link programaParser#declaracion}.
 	 * @param ctx the parse tree
 	 */
